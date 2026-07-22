@@ -1,0 +1,46 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+_release/
+
+# Generated large/binary modeling artifacts. Keep source code and small
+# audit summaries in Git; publish these via Git LFS or GitHub Releases.
+outputs_citylbm_voxel_china/**/*.3dm
+outputs_citylbm_voxel_china/**/*.tif
+outputs_citylbm_voxel_china/**/*.gpkg
+outputs_citylbm_voxel_china/**/03_cache/
+outputs_citylbm_voxel_china/**/sparse_voxels.csv
+outputs_citylbm_voxel_china/**/terrain_mesh.csv
+outputs_citylbm_voxel_china/**/terrain_dem_samples.csv
+outputs_citylbm_voxel_china/**/osm_overpass_combined_raw*.json
+outputs_citylbm_voxel_china/01_raw/osm_overpass_combined_aoi_*.json
+outputs_citylbm_voxel_china/_smoke_*/
+outputs_citylbm_voxel_china/_probe_*/
+outputs_citylbm_voxel_china/_full_e2e_*/
+outputs_citylbm_voxel_china/_manual_*/
+outputs_citylbm_voxel_china/_*tests/
+outputs_citylbm_voxel_china/12_logs/stability_checks_summary.json
+
+# Root-level legacy output snapshots and generated analysis products.
+# Site outputs are reproduced or staged by release scripts instead of normal Git.
+outputs_citylbm_voxel_china/02_gis/
+outputs_citylbm_voxel_china/04_voxels/
+outputs_citylbm_voxel_china/05_rhino/
+outputs_citylbm_voxel_china/06_tables/
+outputs_citylbm_voxel_china/07_audit/
+outputs_citylbm_voxel_china/08_morphology/
+outputs_citylbm_voxel_china/09_lcz/
+outputs_citylbm_voxel_china/10_figures/
+outputs_citylbm_voxel_china/11_docs/
+outputs_citylbm_voxel_china/12_logs/
+outputs_citylbm_voxel_china/14_heat_wind_risk/
+outputs_citylbm_voxel_china/15_typical_blocks/
+outputs_citylbm_voxel_china/01_raw/legacy_*
+outputs_citylbm_voxel_china/01_raw/LEGACY_NOTE.md
+outputs_citylbm_voxel_china/dalian_dlut_west_library/
+outputs_citylbm_voxel_china/dalian_dlut_west_library_0p1m_component_mesh/
+outputs_citylbm_voxel_china/dalian_dlut_west_library_component_mesh/
+outputs_citylbm_voxel_china/dalian_zhongshan_square_500m_0p1m/
+outputs_citylbm_voxel_china/dlut_arch_art_college_500m_0p1m/

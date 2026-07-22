@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "version": "v0.2.0_rule_and_prototype_mvp",
+    "note": "Initial auditable thresholds for 250 m urban morphology grids and scene-level Rhino LCZ annotations. Calibrate with official LCZ samples before publication claims."
+  },
+  "rule_order": [
+    {
+      "lcz": "LCZ 2 - Compact mid-rise",
+      "conditions": {
+        "building_coverage_ratio": [0.35, 1.0],
+        "building_height_mean_m": [10.0, 25.0],
+        "open_space_ratio": [0.0, 0.65]
+      },
+      "confidence": 0.72
+    },
+    {
+      "lcz": "LCZ 5 - Open mid-rise",
+      "conditions": {
+        "building_coverage_ratio": [0.15, 0.45],
+        "building_height_mean_m": [10.0, 25.0],
+        "open_space_ratio": [0.45, 1.0]
+      },
+      "confidence": 0.70
+    },
+    {
+      "lcz": "LCZ 6 - Open low-rise",
+      "conditions": {
+        "building_coverage_ratio": [0.08, 0.40],
+        "building_height_mean_m": [3.0, 12.0],
+        "open_space_ratio": [0.55, 1.0]
+      },
+      "confidence": 0.66
+    },
+    {
+      "lcz": "LCZ 8 - Large low-rise",
+      "conditions": {
+        "building_coverage_ratio": [0.25, 0.65],
+        "building_height_mean_m": [3.0, 12.0],
+        "floor_area_ratio_est": [0.25, 1.80]
+      },
+      "confidence": 0.64
+    },
+    {
+      "lcz": "LCZ 9 - Sparsely built",
+      "conditions": {
+        "building_coverage_ratio": [0.02, 0.18],
+        "open_space_ratio": [0.70, 1.0]
+      },
+      "confidence": 0.62
+    },
+    {
+      "lcz": "LCZ B - Scattered trees",
+      "conditions": {
+        "tree_cover_ratio": [0.25, 1.0],
+        "building_coverage_ratio": [0.0, 0.20]
+      },
+      "confidence": 0.60
+    },
+    {
+      "lcz": "LCZ D - Low plants",
+      "conditions": {
+        "green_ratio": [0.35, 1.0],
+        "building_coverage_ratio": [0.0, 0.08],
+        "tree_cover_ratio": [0.0, 0.35]
+      },
+      "confidence": 0.58
+    }
+  ],
+  "default_lcz": "LCZ 9 - Sparsely built",
+  "prototype_features": [
+    "building_coverage_ratio",
+    "building_height_mean_m",
+    "floor_area_ratio_est",
+    "open_space_ratio",
+    "impervious_surface_ratio",
+    "green_ratio",
+    "tree_cover_ratio",
+    "water_ratio",
+    "frontal_area_index_mean_proxy",
+    "terrain_slope_proxy"
+  ],
+  "feature_scales": {
+    "building_coverage_ratio": 0.45,
+    "building_height_mean_m": 25.0,
+    "floor_area_ratio_est": 3.0,
+    "open_space_ratio": 1.0,
+    "impervious_surface_ratio": 1.0,
+    "green_ratio": 1.0,
+    "tree_cover_ratio": 1.0,
+    "water_ratio": 0.5,
+    "frontal_area_index_mean_proxy": 2.0,
+    "terrain_slope_proxy": 0.2
+  },
+  "prototypes": {
+    "LCZ 2 - Compact mid-rise": {
+      "building_coverage_ratio": 0.45,
+      "building_height_mean_m": 18.0,
+      "floor_area_ratio_est": 2.2,
+      "open_space_ratio": 0.45,
+      "impervious_surface_ratio": 0.75,
+      "green_ratio": 0.12,
+      "tree_cover_ratio": 0.06,
+      "water_ratio": 0.0,
+      "frontal_area_index_mean_proxy": 1.2,
+      "terrain_slope_proxy": 0.03
+    },
+    "LCZ 5 - Open mid-rise": {
+      "building_coverage_ratio": 0.25,
+      "building_height_mean_m": 16.0,
+      "floor_area_ratio_est": 1.2,
+      "open_space_ratio": 0.70,
+      "impervious_surface_ratio": 0.45,
+      "green_ratio": 0.28,
+      "tree_cover_ratio": 0.15,
+      "water_ratio": 0.02,
+      "frontal_area_index_mean_proxy": 0.65,
+      "terrain_slope_proxy": 0.04
+    },
+    "LCZ 6 - Open low-rise": {
+      "building_coverage_ratio": 0.18,
+      "building_height_mean_m": 7.0,
+      "floor_area_ratio_est": 0.45,
+      "open_space_ratio": 0.80,
+      "impervious_surface_ratio": 0.35,
+      "green_ratio": 0.35,
+      "tree_cover_ratio": 0.16,
+      "water_ratio": 0.01,
+      "frontal_area_index_mean_proxy": 0.25,
+      "terrain_slope_proxy": 0.03
+    },
+    "LCZ 8 - Large low-rise": {
+      "building_coverage_ratio": 0.40,
+      "building_height_mean_m": 8.0,
+      "floor_area_ratio_est": 0.95,
+      "open_space_ratio": 0.58,
+      "impervious_surface_ratio": 0.75,
+      "green_ratio": 0.10,
+      "tree_cover_ratio": 0.03,
+      "water_ratio": 0.0,
+      "frontal_area_index_mean_proxy": 0.55,
+      "terrain_slope_proxy": 0.02
+    },
+    "LCZ 9 - Sparsely built": {
+      "building_coverage_ratio": 0.08,
+      "building_height_mean_m": 8.0,
+      "floor_area_ratio_est": 0.20,
+      "open_space_ratio": 0.90,
+      "impervious_surface_ratio": 0.18,
+      "green_ratio": 0.42,
+      "tree_cover_ratio": 0.20,
+      "water_ratio": 0.02,
+      "frontal_area_index_mean_proxy": 0.12,
+      "terrain_slope_proxy": 0.04
+    },
+    "LCZ B - Scattered trees": {
+      "building_coverage_ratio": 0.04,
+      "building_height_mean_m": 3.0,
+      "floor_area_ratio_est": 0.05,
+      "open_space_ratio": 0.96,
+      "impervious_surface_ratio": 0.08,
+      "green_ratio": 0.75,
+      "tree_cover_ratio": 0.48,
+      "water_ratio": 0.02,
+      "frontal_area_index_mean_proxy": 0.05,
+      "terrain_slope_proxy": 0.08
+    },
+    "LCZ D - Low plants": {
+      "building_coverage_ratio": 0.02,
+      "building_height_mean_m": 1.0,
+      "floor_area_ratio_est": 0.02,
+      "open_space_ratio": 0.98,
+      "impervious_surface_ratio": 0.04,
+      "green_ratio": 0.80,
+      "tree_cover_ratio": 0.12,
+      "water_ratio": 0.01,
+      "frontal_area_index_mean_proxy": 0.02,
+      "terrain_slope_proxy": 0.04
+    }
+  },
+  "confidence_levels": {
+    "high": {
+      "min_top1_probability": 0.55,
+      "min_margin": 0.18,
+      "max_entropy": 0.72
+    },
+    "medium": {
+      "min_top1_probability": 0.40,
+      "min_margin": 0.08,
+      "max_entropy": 0.88
+    }
+  }
+}

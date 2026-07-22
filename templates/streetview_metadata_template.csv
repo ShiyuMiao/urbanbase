@@ -1,0 +1,2 @@
+﻿image_id,image_path,lon,lat,provider,captured_at,heading_deg,pitch_deg,roll_deg,horizontal_fov_deg,camera_height_m,coordinate_crs,license,photographer,building_id,notes
+sample_001,images/sample_001.jpg,121.512000,38.883000,manual,2026-01-01T10:00:00+08:00,90,0,0,70,1.6,EPSG:4326,"user-supplied, document before publication",,,replace this sample row with real authorized images

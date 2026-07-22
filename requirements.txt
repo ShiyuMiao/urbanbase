@@ -1,0 +1,9 @@
+geopandas
+matplotlib
+numpy
+pandas
+Pillow
+rasterio
+requests
+rhino3dm
+shapely
