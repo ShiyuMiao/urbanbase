@@ -1,0 +1,6 @@
+task_stage,start_time,end_time,elapsed_time_min,mode,summary,evidence_type
+download_source_metadata,2026-07-23,2026-07-23,,automatic,Zenodo API metadata copied and file checksums verified,newly_run
+download_obj_parts,2026-07-23,2026-07-23,,automatic+retry,OBJ downloaded via ranged chunks after Zenodo resume endpoint failed,newly_run
+export_stl_pair,2026-07-23,2026-07-23,0.32,automatic,Generated local STL and FluidX3D z0 STL from OBJ,newly_run
+export_rhino3dm_geometry,2026-07-23,2026-07-23,0.83,automatic,Generated layered 3DM geometry; exact UV not embedded,newly_run
+rhino_auto_import,2026-07-23,2026-07-23,>16,automatic_attempt,Rhino command-line import did not complete; visible Rhino launch used for OBJ,newly_run

@@ -1,0 +1,41 @@
+{
+  "scenario_id": null,
+  "design_intervention_type": null,
+  "changed_geometry_description": null,
+  "building_height_change": null,
+  "open_space_ratio": null,
+  "frontal_area_index": null,
+  "plan_area_density": null,
+  "mean_building_height": null,
+  "height_variance": null,
+  "street_canyon_H_over_W": null,
+  "vegetation_or_screen_porosity": null,
+  "wind_direction": null,
+  "runtime_min": null,
+  "mean_wind_speed_ratio": null,
+  "P95_wind_speed_ratio": null,
+  "strong_wind_area_m2": null,
+  "strong_wind_area_percent": null,
+  "stagnant_area_m2": null,
+  "stagnant_area_percent": null,
+  "comfortable_area_m2": null,
+  "comfortable_area_percent": null,
+  "entrance_risk_point_count": null,
+  "path_exposure_mean": null,
+  "path_exposure_P95": null,
+  "improvement_strong_wind_area_percent_vs_S0": null,
+  "improvement_stagnant_area_percent_vs_S0": null,
+  "improvement_comfortable_area_percent_vs_S0": null,
+  "composite_design_score": null,
+  "scenario_rank": null,
+  "design_interpretation": null,
+  "_metadata": {
+    "module": "T4_design_intervention",
+    "evidence_type_required": [
+      "newly_run",
+      "preexisting_artifact",
+      "user_claim"
+    ],
+    "status": "template_only"
+  }
+}

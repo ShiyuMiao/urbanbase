@@ -1,0 +1,71 @@
+{
+  "evidence_type": "newly_run",
+  "source_obj": "F:\\0_PhD second year\\第5篇：城市风环境LBM二次开发\\实验3：3DGS模型构建\\TUM2TWIN_TUM_Downtown_Photogrammetry_Mesh_20241217\\raw_zenodo\\TUM_Downtown_Photogrammetry_20241217_Mesh.obj",
+  "outputs": {
+    "local_stl": "F:\\0_PhD second year\\第5篇：城市风环境LBM二次开发\\实验3：3DGS模型构建\\TUM2TWIN_TUM_Downtown_Photogrammetry_Mesh_20241217\\converted\\TUM_Downtown_Photogrammetry_20241217_visual_local_fullres.stl",
+    "fluidx3d_z0_stl": "F:\\0_PhD second year\\第5篇：城市风环境LBM二次开发\\实验3：3DGS模型构建\\TUM2TWIN_TUM_Downtown_Photogrammetry_Mesh_20241217\\converted\\TUM_Downtown_Photogrammetry_20241217_fluidx3d_z0_fullres.stl"
+  },
+  "counts": {
+    "vertices": 951285,
+    "obj_face_records": 999999,
+    "triangles_written_per_stl": 999999
+  },
+  "bbox_local": {
+    "min": [
+      -182.366,
+      -205.826,
+      -49.2653
+    ],
+    "max": [
+      226.916,
+      336.833,
+      -2.11812
+    ],
+    "size": [
+      409.28200000000004,
+      542.659,
+      47.147180000000006
+    ]
+  },
+  "bbox_fluidx3d_z0": {
+    "min": [
+      -182.366,
+      -205.826,
+      0.0
+    ],
+    "max": [
+      226.916,
+      336.833,
+      47.147180000000006
+    ],
+    "size": [
+      409.28200000000004,
+      542.659,
+      47.147180000000006
+    ]
+  },
+  "coordinate_transform_for_fluidx3d_stl": {
+    "x": "unchanged",
+    "y": "unchanged",
+    "z": "z + 49.265300",
+    "reason": "set minimum z to 0 for simulation-domain setup"
+  },
+  "source_materials": {
+    "mtllib": [
+      "TUM_Downtown_Photogrammetry_20241217_Mesh.mtl"
+    ],
+    "usemtl": [
+      "material"
+    ]
+  },
+  "stl_limitation": "STL stores triangle geometry only; texture/material/layer data are intentionally absent.",
+  "elapsed_seconds": 19.313091039657593,
+  "md5": {
+    "local_stl": "22077974F63C4D9A28DB2386D1B8E722",
+    "fluidx3d_z0_stl": "23E3B342C34DFD5F7CDEEAC23CCD9A86"
+  },
+  "file_sizes_bytes": {
+    "local_stl": 50000034,
+    "fluidx3d_z0_stl": 50000034
+  }
+}

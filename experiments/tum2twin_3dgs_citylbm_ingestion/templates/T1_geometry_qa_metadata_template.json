@@ -1,0 +1,35 @@
+{
+  "study_area_boundary": null,
+  "data_source": null,
+  "dataset_version": null,
+  "coordinate_reference_system": null,
+  "number_of_buildings_raw": null,
+  "number_of_buildings_converted": null,
+  "conversion_success_rate": null,
+  "invalid_mesh_count": null,
+  "repaired_mesh_count": null,
+  "building_footprint_area_raw": null,
+  "building_footprint_area_converted": null,
+  "footprint_area_error_percent": null,
+  "building_height_mean": null,
+  "building_height_max": null,
+  "building_volume_raw_or_reference": null,
+  "voxelized_volume": null,
+  "voxelization_volume_error_percent": null,
+  "voxel_size": null,
+  "grid_resolution_x_y_z": null,
+  "solid_volume_fraction": null,
+  "geometry_processing_time_min": null,
+  "manual_repair_time_min": null,
+  "output_model_path": null,
+  "QA_status": null,
+  "_metadata": {
+    "module": "T1_geometry_qa",
+    "evidence_type_required": [
+      "newly_run",
+      "preexisting_artifact",
+      "user_claim"
+    ],
+    "status": "template_only"
+  }
+}

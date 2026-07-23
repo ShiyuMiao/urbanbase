@@ -1,0 +1,19 @@
+{
+  "read_ok": true,
+  "layers": [
+    {
+      "index": 0,
+      "name": "TUM2TWIN::UAS_Photogrammetry_Mesh::material",
+      "full_path": "TUM2TWIN::UAS_Photogrammetry_Mesh::material"
+    }
+  ],
+  "objects": 1,
+  "meshes": [
+    {
+      "name": "TUM_Downtown_Photogrammetry_20241217_fullres_mesh",
+      "layer_index": 0,
+      "vertices": 951285,
+      "faces": 999999
+    }
+  ]
+}

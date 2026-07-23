@@ -1,0 +1,147 @@
+{
+  "package_created_utc": "2026-07-23T07:37:46Z",
+  "dataset": {
+    "name": "UAV Laser Scanning and Photogrammetry of TUM Downtown Campus",
+    "project": "TUM2TWIN",
+    "record_url": "https://zenodo.org/records/15282970",
+    "api_url": "https://zenodo.org/api/records/15282970",
+    "doi": "10.5281/zenodo.15282970",
+    "version": "1.2.0",
+    "license": "Creative Commons Attribution 4.0 International (CC-BY-4.0)",
+    "source_page_for_uas_mesh": "https://tum2t.win/datasets/cm-mesh",
+    "pc_fac_page_read_but_not_used_as_cfd_model": "https://tum2t.win/benchmarks/pc-fac"
+  },
+  "downloaded_files": [
+    {
+      "artifact_id": "raw_obj",
+      "path": "F:\\0_PhD second year\\第5篇：城市风环境LBM二次开发\\实验3：3DGS模型构建\\TUM2TWIN_TUM_Downtown_Photogrammetry_Mesh_20241217\\raw_zenodo\\TUM_Downtown_Photogrammetry_20241217_Mesh.obj",
+      "relative_path": "raw_zenodo/TUM_Downtown_Photogrammetry_20241217_Mesh.obj",
+      "size_bytes": 91981534,
+      "md5": "2D5FD9B70DF14467836F5A2D2507ECB3",
+      "evidence_type": "preexisting_artifact",
+      "status": "available",
+      "note": "Downloaded and checksum verified from Zenodo"
+    },
+    {
+      "artifact_id": "raw_mtl",
+      "path": "F:\\0_PhD second year\\第5篇：城市风环境LBM二次开发\\实验3：3DGS模型构建\\TUM2TWIN_TUM_Downtown_Photogrammetry_Mesh_20241217\\raw_zenodo\\TUM_Downtown_Photogrammetry_20241217_Mesh.mtl",
+      "relative_path": "raw_zenodo/TUM_Downtown_Photogrammetry_20241217_Mesh.mtl",
+      "size_bytes": 80,
+      "md5": "FFB31D2B83F3C067D6AFDEB8135A9B02",
+      "evidence_type": "preexisting_artifact",
+      "status": "available",
+      "note": "Downloaded and checksum verified from Zenodo"
+    },
+    {
+      "artifact_id": "raw_jpg",
+      "path": "F:\\0_PhD second year\\第5篇：城市风环境LBM二次开发\\实验3：3DGS模型构建\\TUM2TWIN_TUM_Downtown_Photogrammetry_Mesh_20241217\\raw_zenodo\\TUM_Downtown_Photogrammetry_20241217_Mesh.jpg",
+      "relative_path": "raw_zenodo/TUM_Downtown_Photogrammetry_20241217_Mesh.jpg",
+      "size_bytes": 13406613,
+      "md5": "739CD7F71CABFD6D92006FCAACCEBBD3",
+      "evidence_type": "preexisting_artifact",
+      "status": "available",
+      "note": "Downloaded and checksum verified from Zenodo"
+    },
+    {
+      "artifact_id": "raw_offset",
+      "path": "F:\\0_PhD second year\\第5篇：城市风环境LBM二次开发\\实验3：3DGS模型构建\\TUM2TWIN_TUM_Downtown_Photogrammetry_Mesh_20241217\\raw_zenodo\\TUM_Downtown_Photogrammetry_20241217_Mesh_offset.xyz",
+      "relative_path": "raw_zenodo/TUM_Downtown_Photogrammetry_20241217_Mesh_offset.xyz",
+      "size_bytes": 32,
+      "md5": "D6CE1E32F86D6D86EE47A0103DF7B4A1",
+      "evidence_type": "preexisting_artifact",
+      "status": "available",
+      "note": "Downloaded and checksum verified from Zenodo"
+    },
+    {
+      "artifact_id": "rhino_3dm",
+      "path": "F:\\0_PhD second year\\第5篇：城市风环境LBM二次开发\\实验3：3DGS模型构建\\TUM2TWIN_TUM_Downtown_Photogrammetry_Mesh_20241217\\converted\\TUM_Downtown_Photogrammetry_20241217_rhino_layered_geometry.3dm",
+      "relative_path": "converted/TUM_Downtown_Photogrammetry_20241217_rhino_layered_geometry.3dm",
+      "size_bytes": 44509170,
+      "md5": "D7854EED3CF0CF7877F67E74FE844B2A",
+      "evidence_type": "newly_run",
+      "status": "available",
+      "note": "Generated locally from the verified OBJ source"
+    },
+    {
+      "artifact_id": "stl_local",
+      "path": "F:\\0_PhD second year\\第5篇：城市风环境LBM二次开发\\实验3：3DGS模型构建\\TUM2TWIN_TUM_Downtown_Photogrammetry_Mesh_20241217\\converted\\TUM_Downtown_Photogrammetry_20241217_visual_local_fullres.stl",
+      "relative_path": "converted/TUM_Downtown_Photogrammetry_20241217_visual_local_fullres.stl",
+      "size_bytes": 50000034,
+      "md5": "22077974F63C4D9A28DB2386D1B8E722",
+      "evidence_type": "newly_run",
+      "status": "available",
+      "note": "Generated locally from the verified OBJ source"
+    },
+    {
+      "artifact_id": "stl_fluidx3d_z0",
+      "path": "F:\\0_PhD second year\\第5篇：城市风环境LBM二次开发\\实验3：3DGS模型构建\\TUM2TWIN_TUM_Downtown_Photogrammetry_Mesh_20241217\\converted\\TUM_Downtown_Photogrammetry_20241217_fluidx3d_z0_fullres.stl",
+      "relative_path": "converted/TUM_Downtown_Photogrammetry_20241217_fluidx3d_z0_fullres.stl",
+      "size_bytes": 50000034,
+      "md5": "23E3B342C34DFD5F7CDEEAC23CCD9A86",
+      "evidence_type": "newly_run",
+      "status": "available",
+      "note": "Generated locally from the verified OBJ source"
+    },
+    {
+      "artifact_id": "zenodo_record",
+      "path": "F:\\0_PhD second year\\第5篇：城市风环境LBM二次开发\\实验3：3DGS模型构建\\TUM2TWIN_TUM_Downtown_Photogrammetry_Mesh_20241217\\raw_zenodo\\zenodo_record_15282970.json",
+      "relative_path": "raw_zenodo/zenodo_record_15282970.json",
+      "size_bytes": 9344,
+      "md5": "73676238E8903DE88CB7AD7A7180F4D4",
+      "evidence_type": "preexisting_artifact",
+      "status": "available",
+      "note": "Downloaded and checksum verified from Zenodo"
+    }
+  ],
+  "geometry_stats": {
+    "vertices": 951285,
+    "texture_coordinates": 951285,
+    "triangles": 999999,
+    "bbox_local_min_xyz": [
+      -182.366,
+      -205.826,
+      -49.2653
+    ],
+    "bbox_local_max_xyz": [
+      226.916,
+      336.833,
+      -2.11812
+    ],
+    "bbox_size_xyz_m": [
+      409.282,
+      542.659,
+      47.14718
+    ],
+    "offset_xyz": [
+      690956.0,
+      5336042.0,
+      604.0
+    ],
+    "fluidx3d_z0_transform": {
+      "x": "unchanged",
+      "y": "unchanged",
+      "z": "z + 49.265300"
+    }
+  },
+  "rhino_layer_policy": {
+    "source_obj_layers": "OBJ has no explicit Rhino layers; it has one material/usemtl named material.",
+    "3dm_layer_created": "TUM2TWIN::UAS_Photogrammetry_Mesh::material",
+    "texture_accuracy": "OBJ/MTL/JPG retain exact UV texture atlas. The generated 3DM stores layered geometry and texture file reference but does not embed exact OBJ vt UV coordinates."
+  },
+  "semantic_model_entrypoints": {
+    "tum2twin_semantic_buildings_page": "https://tum2t.win/datasets/cm-buildings",
+    "tum2twin_cad_page": "https://tum2t.win/datasets/cm-cad",
+    "gitlab_project": "https://gitlab.lrz.de/tum-gis/tum2twin-datasets",
+    "citygml_dirs": [
+      "citygml/lod2-building-datasets",
+      "citygml/lod2-textured-building-datasets",
+      "citygml/lod3-building-datasets",
+      "citygml/lod3-vegetation-datasets"
+    ],
+    "obj_dirs": [
+      "obj/lod3_merged_city_model",
+      "obj/lod3_road_models"
+    ],
+    "note": "These are the correct sources for future LoD2/LoD3/vegetation semantic-layer experiments; they were identified but not converted in this run."
+  }
+}

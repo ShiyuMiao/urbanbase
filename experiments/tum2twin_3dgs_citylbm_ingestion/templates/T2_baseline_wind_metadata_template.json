@@ -1,0 +1,42 @@
+{
+  "wind_direction": null,
+  "reference_wind_speed": null,
+  "reference_height": null,
+  "inflow_profile_type": null,
+  "domain_size_x_y_z": null,
+  "voxel_size": null,
+  "grid_cell_count": null,
+  "timestep_count": null,
+  "save_interval": null,
+  "LES_enabled": null,
+  "runtime_min": null,
+  "GPU_memory_peak_GB": null,
+  "output_vtk_path": null,
+  "pedestrian_height": null,
+  "mean_wind_speed_ratio": null,
+  "median_wind_speed_ratio": null,
+  "max_wind_speed_ratio": null,
+  "P75_wind_speed_ratio": null,
+  "P90_wind_speed_ratio": null,
+  "P95_wind_speed_ratio": null,
+  "strong_wind_area_m2": null,
+  "strong_wind_area_percent": null,
+  "stagnant_area_m2": null,
+  "stagnant_area_percent": null,
+  "comfortable_area_m2": null,
+  "comfortable_area_percent": null,
+  "entrance_risk_point_count": null,
+  "path_mean_exposure": null,
+  "path_P95_exposure": null,
+  "hotspot_polygon_path": null,
+  "evidence_type": null,
+  "_metadata": {
+    "module": "T2_baseline_wind",
+    "evidence_type_required": [
+      "newly_run",
+      "preexisting_artifact",
+      "user_claim"
+    ],
+    "status": "template_only"
+  }
+}

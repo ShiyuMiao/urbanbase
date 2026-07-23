@@ -1,0 +1,32 @@
+{
+  "task_stage": null,
+  "start_time": null,
+  "end_time": null,
+  "elapsed_time_min": null,
+  "manual_steps_count": null,
+  "automatic_steps_count": null,
+  "file_conversion_count": null,
+  "software_used": null,
+  "input_file_path": null,
+  "output_file_path": null,
+  "error_count": null,
+  "rerun_count": null,
+  "manual_repair_count": null,
+  "user_interaction_count": null,
+  "total_workflow_time_min": null,
+  "time_per_scenario_min": null,
+  "traditional_CFD_estimated_time_min": null,
+  "time_saving_percent": null,
+  "reproducibility_package_complete": null,
+  "missing_artifacts": null,
+  "run_package_path": null,
+  "_metadata": {
+    "module": "T5_workflow_efficiency",
+    "evidence_type_required": [
+      "newly_run",
+      "preexisting_artifact",
+      "user_claim"
+    ],
+    "status": "template_only"
+  }
+}

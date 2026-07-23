@@ -1,0 +1,43 @@
+{
+  "evidence_type": "newly_run",
+  "output_3dm": "F:\\0_PhD second year\\第5篇：城市风环境LBM二次开发\\实验3：3DGS模型构建\\TUM2TWIN_TUM_Downtown_Photogrammetry_Mesh_20241217\\converted\\TUM_Downtown_Photogrammetry_20241217_rhino_layered_geometry.3dm",
+  "write_ok": true,
+  "file_size_bytes": 44509170,
+  "md5": "D7854EED3CF0CF7877F67E74FE844B2A",
+  "layer_count": 1,
+  "layer_names": [
+    "TUM2TWIN::UAS_Photogrammetry_Mesh::material"
+  ],
+  "material_count": 1,
+  "material_names": [
+    "TUM_Downtown_Photogrammetry_Texture_reference"
+  ],
+  "object_count": 1,
+  "mesh_vertices": 951285,
+  "obj_texture_coordinates_present": 951285,
+  "mesh_triangles": 999999,
+  "bbox_local": {
+    "min": [
+      -182.366,
+      -205.826,
+      -49.2653
+    ],
+    "max": [
+      226.916,
+      336.833,
+      -2.11812
+    ],
+    "size": [
+      409.28200000000004,
+      542.659,
+      47.147180000000006
+    ]
+  },
+  "texture_status": "texture file referenced; exact OBJ UV atlas not embedded in 3DM by rhino3dm",
+  "accurate_textured_rhino_input": [
+    "F:\\0_PhD second year\\第5篇：城市风环境LBM二次开发\\实验3：3DGS模型构建\\TUM2TWIN_TUM_Downtown_Photogrammetry_Mesh_20241217\\raw_zenodo\\TUM_Downtown_Photogrammetry_20241217_Mesh.obj",
+    "F:\\0_PhD second year\\第5篇：城市风环境LBM二次开发\\实验3：3DGS模型构建\\TUM2TWIN_TUM_Downtown_Photogrammetry_Mesh_20241217\\raw_zenodo\\TUM_Downtown_Photogrammetry_20241217_Mesh.mtl",
+    "F:\\0_PhD second year\\第5篇：城市风环境LBM二次开发\\实验3：3DGS模型构建\\TUM2TWIN_TUM_Downtown_Photogrammetry_Mesh_20241217\\raw_zenodo\\TUM_Downtown_Photogrammetry_20241217_Mesh.jpg"
+  ],
+  "elapsed_seconds": 50.04187607765198
+}

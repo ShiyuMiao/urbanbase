@@ -1,0 +1,10 @@
+missing_id,artifact,module,status,why_it_matters
+MIS-001,TUM2TWIN LoD2 CityGML subarea,T1 geometry,not_downloaded,Needed for clean building-solid baseline and LoD2 massing comparison
+MIS-002,TUM2TWIN LoD3 CityGML subarea,T1 geometry,not_downloaded,Needed for semantic LoD3 building boundary extraction and layer-by-surface Rhino conversion
+MIS-003,TUM2TWIN vegetation CityGML/tree models,T1/T3 geometry,not_downloaded,Optional G4 vegetation sensitivity case
+MIS-004,Grasshopper SceneData/domain/grid/voxel mask,T1 workflow,not_generated,Required before CityLBM/FluidX3D runs
+MIS-005,AIJ Case A/E verified logs and plots in this package,benchmark evidence,not_collected_here,Needed to claim benchmark credibility in the same reproducibility package
+MIS-006,TUM2TWIN baseline 8-wind-direction VTK files,T2 simulation,not_run,Required before wind-map Results claims
+MIS-007,LoD2 vs LoD3 sensitivity VTK/statistics,T3 simulation,not_run,Required before geometry sensitivity claims
+MIS-008,S0-S7 design-intervention models and VTK/statistics,T4 simulation,not_run,Required before design-support demonstration claims
+MIS-009,Workflow timing from full run,T5 reproducibility,partial,Only download/conversion timing exists; no full CFD timing
